@@ -23,4 +23,16 @@ public class Vaca extends Animal {
   public void hacerSonido() {
     System.out.println("Muuuuu~~~🐮");
   }
+
+  /**
+   * {@inheritDoc}
+   * <br>
+   * Se implementa el método para demostrar que la vaca se mueve.
+   */
+  @Override
+  public void moverse() {
+    System.out.println(
+      "La vaca mueve sus 4 patas cuando camina a pastar"
+    );
+  }
 }

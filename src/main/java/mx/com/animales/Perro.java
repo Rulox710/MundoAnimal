@@ -23,4 +23,16 @@ public class Perro extends Animal {
   public void hacerSonido() {
     System.out.println("Arrfff~~~🐶");
   }
+
+  /**
+   * {@inheritDoc}
+   * <br>
+   * Se implementa el método para demostrar que el perro se mueve.
+   */
+  @Override
+  public void moverse() {
+    System.out.println(
+      "El perro mueve sus 4 patas cuando corre"
+    );
+  }
 }

@@ -23,4 +23,16 @@ public class Gato extends Animal {
   public void hacerSonido() {
     System.out.println("Miuaaaau~~~🐱");
   }
+
+  /**
+   * {@inheritDoc}
+   * <br>
+   * Se implementa el método para demostrar que el gato se mueve.
+   */
+  @Override
+  public void moverse() {
+    System.out.println(
+      "El gato mueve sus 4 patas cuando salta"
+    );
+  }
 }

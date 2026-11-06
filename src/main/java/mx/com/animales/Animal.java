@@ -1,6 +1,6 @@
 package mx.com.animales;
 
-public abstract class Animal {
+public abstract class Animal implements Movible {
 
   private String nombre;
   private int edad;
@@ -10,7 +10,7 @@ public abstract class Animal {
    */
   public void mostrarInformacion() {
     System.out.printf(
-      "Este animal se llama %s y tiene tan solo %d añitos",
+      "Este animal se llama %s y tiene tan solo %d añitos\n",
       nombre, edad
     );
   }

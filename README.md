@@ -16,9 +16,12 @@ run.bat Main
     > No. Porque la clase el abstracta y por tanto no se puede instanciar.
 
 2. ¿Qué propiedades se comparten y qué comportamiento cambia?
-    > Todas las propiedades se comparten, lo único que cambia el el método
-    > hacerSonido() ya que ahora si tiene implementación
+    > Todas las propiedades se comparten, lo único que cambia el el método hacerSonido() ya que ahora si tiene implementación
     > y es propia de cada animal.
+
+3. Explica la diferencia entre `extends` e `implements`.
+    > `extends` es para "extender" una clase abstracta, o sea que puede tener constructores, atributos o métodos abstractos o definidos.
+    > `implements` es para "implementar" una interfaces, una clase que únicamente puede tener firmas de métodos que posteriormente se deben implementar por la clase que le implemente.
 
 2. ¿Qué se reutiliza al heredar de Animal?
     >
