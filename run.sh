@@ -48,7 +48,7 @@ cp -r "$RES_DIR"/* ./bin/
 exe:
 echo "=== Ejecutando el programa ==="
 echo
-java -cp "./bin;./lib/*" "$EXEC" "$FLAG"
+java -cp "./bin:./lib/*" "$EXEC" "$FLAG"
 echo
 pause
 
