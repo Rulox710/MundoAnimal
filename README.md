@@ -15,6 +15,11 @@ run.bat Main
 1. ¿Puedes crear un objeto directamente de Animal? ¿Por qué?
     > No. Porque la clase el abstracta y por tanto no se puede instanciar.
 
+2. ¿Qué propiedades se comparten y qué comportamiento cambia?
+    > Todas las propiedades se comparten, lo único que cambia el el método
+    > hacerSonido() ya que ahora si tiene implementación
+    > y es propia de cada animal.
+
 2. ¿Qué se reutiliza al heredar de Animal?
     >
 
