@@ -1,6 +1,8 @@
+import mx.com.animales.Animal;
+
 public class Main {
 
   public static void main(String... args) {
-    System.out.println("Hola mundo");
+    Animal animal = new Animal();
   }
 }
